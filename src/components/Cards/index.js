@@ -6,7 +6,7 @@ function Cards(props) {
 
         <div className="card" onClick={() => props.hasBeenClicked(props.id)}>
             <div className="img-container">
-                <img alt={props.name} src={props.image} />
+                <img src={props.image} />
             </div>
         </div>
     );
